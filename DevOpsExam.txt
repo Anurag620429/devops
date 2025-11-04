@@ -1,0 +1,55 @@
+###################  DevOps workshop Exam 13-10-2025 to 16-10-2025 ##################
+
+ 1 . How to push code in the GitHub Repro 
+
+     ###  Step Here Followed 
+      step 1. Create GitHub  Account 
+      step 2. First Make Repository  <> Https url show copy it  <https://github.com/Gulabi-kumar/deveops-01.git> 
+      step 3. Download git bash from Browser  then open  
+      step 4. Make local driver folder this folder open in git bash terminal 
+      step 5. clone repository of GitHub which you are create  Commend use <>git clone url<>  git clone https://github.com/Gulabi-kumar/deveops-01.git
+      step 6. which folde you make in local driver copy it and past GitHub clone repository folder it here .Then open git bash terminal 
+      step 7. check status commend <>git status<>
+      step 8. It add all folder <>git add .<>
+      step 9. Add some commit commend <> git Commit -m "WE change website headling name "
+      step 10. Push local folder in GitHub repository use command <>git push<>
+      step 11. Then show window that say login GitHub account .You can login terminal through use command 
+                  <>git config --global user.name "Gulabi-kumar"
+                  <>git config --global user.email "kumargulabi31@gmail.com" <>
+      step 12.then you can push it <>git push<> <>git <>git status<>
+
+
+2 . How to create  Ec2 Server
+   
+  step 1. Create aws account 
+  step 2. go to ec2 instance
+  step 3. Ec2 Instance Account 
+             a. Instance Name = " backend-server "
+             b. select os = Ubuntu
+             c. Amazon Machine Image (AMI) - Amazon Linux  (kernel-6.1) is a modern, general purpose Linux-based OS
+             d. Instance type - select Memory,cpu,storage Type it micro ,small,large
+             e. Generate key pair - 
+                        a.Key pair name  - (ubuntu-key)
+                        b.Key pair type - RSA
+                        c.Private key file format - .ppm (openSSh)
+             f.create key pair click then generate key that key you can store any where in your local drive
+
+3 .  GitHub Action Logic perform step
+     
+    step 1. Go to GitHub repository which you are create click it .
+    step 2. Go to setting option click
+    step 3. Go to < secrets and variable> option click it and go to <action> option and it also click show  <Actions secrets and variables> window 
+          a. create new repository secret option click it ( EC2-HOST,EC2-USER,EC2-SECRET-KEY ) make 3 times one by one 
+                1.EC2-HOST CREATE 
+                   secret- IPV4 ADDRESS
+                2.EC2-USER CREATE
+                   secret- ubuntu
+                3.EC2-SECRET-KEY
+                    SECRET - generate key when we create ec2 times .open this file and copy it and past here 
+
+
+
+
+
+                 
+      
